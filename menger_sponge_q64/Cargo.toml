@@ -1,0 +1,34 @@
+[package]
+name = "menger-sponge-q64"
+version = "1.1.0"
+edition = "2021"
+authors = ["Q64 Collaborative Architecture"]
+license = "AGPL-3.0-only"
+description = "Menger Sponge Q64: Hierarchical adaptive representational dynamics for multi-scale structure discovery"
+repository = "https://github.com/Dedoc-9/Q64-adaptive-dynamics"
+
+[lib]
+name = "menger_sponge_q64"
+path = "src/lib.rs"
+
+[features]
+default = ["python"]
+python = ["pyo3"]
+vendored = []
+
+[dependencies]
+q64 = { path = "../" }
+pyo3 = { version = "0.20", features = ["extension-module"], optional = true }
+ndarray = "0.15"
+ndarray-linalg = "0.16"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "hierarchical_convergence"
+harness = false
+
+[profile.release]
+opt-level = 3
+lto = true

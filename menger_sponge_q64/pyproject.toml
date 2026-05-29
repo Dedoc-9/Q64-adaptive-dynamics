@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel", "maturin[pyo3]"]
+build-backend = "maturin"
+
+[project]
+name = "menger-sponge-q64"
+version = "1.1.0"
+description = "Hierarchical extension of Q64 for multi-scale structure discovery"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "AGPL-3.0-only"}
+authors = [
+    {name = "Q64 Collaborative Architecture", email = "research@q64.org"},
+]
+dependencies = [
+    "q64-adaptive-dynamics>=1.0.0",
+    "numpy>=1.20",
+    "scipy>=1.7",
+    "scikit-learn>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+docs = [
+    "sphinx>=5.0",
+]
+examples = [
+    "jupyter>=1.0",
+    "matplotlib>=3.5",
+]
+
+[project.urls]
+Repository = "https://github.com/Dedoc-9/Q64-adaptive-dynamics"
+Documentation = "https://github.com/Dedoc-9/Q64-adaptive-dynamics/blob/main/menger_sponge_q64/README.md"
+
+[tool.maturin]
+python-source = "python"
+features = ["python"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
