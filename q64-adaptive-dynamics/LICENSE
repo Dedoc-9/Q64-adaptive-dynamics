@@ -1,0 +1,57 @@
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
+
+Copyright (C) 2026 Q64 Collaborative Architecture
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+---
+
+ADDITIONAL TERMS FOR Q64
+
+The following additional terms apply to Q64: Adaptive Representational Dynamics:
+
+1. COPYLEFT REQUIREMENT
+   All modifications, derivative works, and extensions of this software must be
+   released under the same AGPL-3.0 license. This includes:
+   - Rust FFI bindings
+   - Language bindings (Swift, C, MATLAB, etc.)
+   - Performance optimizations and GPU implementations
+   - Hierarchical extensions (Menger Sponge framework)
+
+2. NETWORK USE
+   If you run a modified version of Q64 over a network and provide access to
+   its functionality to others, you must make the source code of your modified
+   version available to all networked users under the AGPL-3.0 license.
+
+3. ATTRIBUTION
+   All distributions (modified or unmodified) must retain:
+   - Original copyright notice
+   - Links to original repository
+   - Reference to the critical turn architecture (THE_CRITICAL_TURN.md)
+
+4. NO ADDITIONAL RESTRICTIONS
+   You may not impose any further restrictions on recipients' rights granted by
+   the AGPL-3.0 license. This applies to all derivative works.
+
+5. SCIENTIFIC INTEGRITY
+   When publishing research using Q64, you must:
+   - Cite the original work
+   - Acknowledge the four-primitive architecture
+   - Disclose any modifications to the core algorithm
+
+---
+
+For the full AGPL-3.0 license text, see:
+https://www.gnu.org/licenses/agpl-3.0.html
