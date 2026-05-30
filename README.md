@@ -4,6 +4,7 @@
 **Version:** 1.0.0-empirical  
 **License:** AGPL-3.0  
 **Status:** Falsifiable Protocol Ready (awaiting hardware validation on ASUS ROG Ally X)
+
 **Author:** Daniel J. Dillberg
 **Contact:** BigDilly95@gmail.com
 
