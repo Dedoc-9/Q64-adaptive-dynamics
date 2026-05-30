@@ -9,6 +9,7 @@
 
 **Contact:** BigDilly95@gmail.com
 
+
 ---
 
 ## Overview
@@ -17,6 +18,10 @@
 
 **Critical insight:** Q64 is **not** asking "What is ground truth?"  
 Q64 is asking "Is telemetry structured enough to justify this system?"
+
+So in Q64 terms, an air gap is really:
+
+a guarantee that epistemic measurements remain attributable to a single closed system.
 
 ### The Problem Q64 Solves
 
