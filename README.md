@@ -32,6 +32,8 @@ Q64 can be characterized as a shift from raw telemetry retention to structure-pr
 
 For auditability, the model replaces exhaustive log replay with cryptographically bound state descriptors (e.g., spectral hashes of latent structure), enabling faster verification workflows when regulatory questions concern system state consistency rather than full event reconstruction. In such regimes, audit time can decrease significantly because verification becomes a comparison of compressed invariants rather than traversal of full event histories. Finally, when applied to partially corrupted or incomplete data streams, reconstruction from stable subspaces can improve robustness by reprojecting observations onto learned or inferred manifolds, although the degree of resilience depends strongly on the validity of the underlying structural assumption.
 
+These benefits emerge if—and only if—the system exhibits persistent low-dimensional structure under the chosen spectral metric.
+
 ### The Problem Q64 Solves
 
 Adaptive learning systems face a fundamental semantic instability: as representations evolve to fit new data, the interpretation of those representations also drifts. Without a fixed reference, there is no ground truth against which to validate whether the system learned something or merely drifted arbitrarily.
