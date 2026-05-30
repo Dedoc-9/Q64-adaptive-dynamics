@@ -23,6 +23,8 @@ So in Q64 terms, an air gap is really:
 
 a guarantee that epistemic measurements remain attributable to a single closed system.
 
+In a standard security model, you're just trying to keep bad guys out. In Q64, you are protecting the mathematical integrity of your claims.
+
 ### The Problem Q64 Solves
 
 Adaptive learning systems face a fundamental semantic instability: as representations evolve to fit new data, the interpretation of those representations also drifts. Without a fixed reference, there is no ground truth against which to validate whether the system learned something or merely drifted arbitrarily.
