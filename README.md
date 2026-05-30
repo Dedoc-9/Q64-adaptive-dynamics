@@ -6,6 +6,7 @@
 **Status:** Falsifiable Protocol Ready (awaiting hardware validation on ASUS ROG Ally X)
 
 **Author:** Daniel J. Dillberg
+
 **Contact:** BigDilly95@gmail.com
 
 ---
